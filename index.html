@@ -11,16 +11,19 @@
 <body>
   <div class="container">
      <h1>Calculator</h1>
-     <form action="" id="add">
+     <form action="">
          <div class="form-group">
-            <label for="add1">1st number</label>
-            <input id="add1" class="form-control" type="text">
+            <label for="num1">1st number</label>
+            <input id="number1" class="form-control" type="text" placeholder="First operand">
          </div>
          <div class="form-group">
-            <label for="add2">2nd number</label>
-            <input id="add2" class="form-control" type="text">
+            <label for="num2">2nd number</label>
+            <input id="number2" class="form-control" type="text" placeholder="Another operand">
          </div>
-         <button class="btn btn-success" type="submit">Add</button>
+         <button id="add" class="btn btn-success" type="button">+</button>
+         <button id="minus" class="btn btn-primary" type="button">-</button>
+         <button id="multiply" class="btn btn-success" type="button">*</button>
+         <button id="divide" class="btn btn-primary" type="button">/</button>
      </form>
      <div id="output"></div>
   </div>
